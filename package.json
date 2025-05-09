@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+  "dev": "serve -s build -l 0.0.0.0:$PORT",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
