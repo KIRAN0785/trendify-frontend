@@ -94,7 +94,7 @@ const MyProfile = ({label, fieldKey, value, onChange}) => {
     className='border px-4 py-2 rounded w-full pr-10'
   />
   <span
-    className='absolute right-3 top-1/2 transform -translate-y-1/2 cursor-pointer text-gray-600'
+    className='absolute right-3 top-12 transform -translate-y-1/2 cursor-pointer text-gray-600'
     onClick={() => togglePasswordVisibility('current')}
   >
     {showPasswords.current ? <FiEyeOff /> : <FiEye />}
